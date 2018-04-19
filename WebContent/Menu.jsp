@@ -12,12 +12,9 @@ Hello User
 cellspacing="2">
 <tbody>
 <tr align="center">
-
 <td colspan="8" rowspan="1" style="vertical-align: top;"><a
 href="Add.jsp">ADD A USER</a>
-
 </td>
-
 </tr>
 <tr>
 <td style="vertical-align: top;">
@@ -41,7 +38,6 @@ int numUsers = users.size();
 for (int i = 0; i < numUsers; i++){
 %>
 <tr>
-
 <td style="vertical-align: top;">
 <form method="post" action="Edit.jsp" name="Edit">
     <input name="Edit" value="Edit" type="submit">
@@ -80,4 +76,3 @@ for (int i = 0; i < numUsers; i++){
 </table>
 </body>
 </html>
-
